@@ -1,6 +1,17 @@
 '''
 Team: anahar-vrvernek-skariyat
 
+Abstraction
+    initial State: Start City with miles, time as 0
+    Goal State: Destination City with calculated miles and time
+    State Space: The entire map of US, Canada and Mexico
+    Successor Function: depending on the algorithm and the option used, we would travel to one of the neighboring cities
+    Cost: Cost function depends on the routing option used.i
+            Distance : miles between the cities
+            Time: time required to travel between the cities
+            Scenic: speed for each path taken
+            Segment: number of segment along the path
+
 The road-segments.txt is read in a dictonary (graph) to create an adjaceny list
 city-gps.txt is read in a dictionary (gps).
 
